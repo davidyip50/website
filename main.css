@@ -1,0 +1,114 @@
+nav {
+	border: 1px solid #000;
+}
+
+.navbar {
+    position: relative;
+    margin-bottom: 0px;
+}
+
+.navbar-header{
+	/*float: left;
+	padding: 25px;
+	width: 100%;
+	text-align: center;
+	text-decoration-color: yellow;
+	*/
+}
+
+.navbar-brand {
+  transform: translateX(-50%);
+  left: 50%;
+  position: absolute;
+}
+
+.tabs li{
+	margin-left: 40px;
+}
+
+nav li img{
+	width: 20px;
+	height: 20px;
+}
+
+.home-page{
+	/*background-color: #e9edf0;*/
+	background-color: #222; 
+	height: 100%;
+	padding: 0 0 5% 0;
+}
+
+.home-page .background{
+	position:relative;
+}
+
+.home-page img{
+	display: block;
+	margin-top: 150px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	position: relative;
+	//opacity: 1;
+	//transition: 0.5s ease;
+	
+}
+
+.home-page .img-thumbnail{
+	opacity: 1;
+	transition: 0.5s ease;
+	backface-visibility: hidden;
+}
+
+.home-page .bg-text{
+	transition: 0.5s ease;
+	opacity: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	text-align: center;
+}
+
+.home-page .text{
+	color: black;
+	font-size: 16px;
+}
+
+.home-page .background:hover .img-thumbnail{
+	opacity: 0.3;
+}
+
+.home-page .background:hover .bg-text{
+	opacity: 1;
+}
+
+.home-page #WELCOME{
+	color: white;
+	text-align: center;
+}
+
+.asp-software-engineer h1{
+	margin-left: auto;
+	padding-left: 15px;
+}
+
+footer{
+	font-size: 12px;
+	padding: 20px 0;
+}
+
+footer .col-sm-8{
+	display: flex;
+	justify-content: flex-end;
+}
+
+footer ul{
+	list-style: none;
+}
+
+footer li img{
+	width: 20px;
+	height: 20px;
+}
